@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/crime_details_label"
+        android:textAllCaps="false"
         style="?android:listSeparatorTextViewStyle"/>
 
     <LinearLayout
@@ -36,14 +37,15 @@
             android:id="@+id/crime_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:textAllCaps="false"
+            android:layout_weight="2"/>
 
         <CheckBox
             android:id="@+id/crime_solved"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/crime_solved_label"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="@string/crime_solved_label" />
     </LinearLayout>
 
     <LinearLayout

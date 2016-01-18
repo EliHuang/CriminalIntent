@@ -7,7 +7,7 @@
     <string name="crimes_title">Crimes</string>
     <string name="date_picker_title">Date of crime:</string>
     <string name="new_crime">New Crime</string>
-    <string name="show_subtitle">总数</string>
+    <string name="show_subtitle">show Subtitle</string>
     <string name="hide_subtitle">Hide Subtitle</string>
     <string name="subtitle_format">%1$s crimes</string>
     <string name="subtitle">If you see something, say something</string>
